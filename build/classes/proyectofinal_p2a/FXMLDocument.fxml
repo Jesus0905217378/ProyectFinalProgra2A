@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="365.0" prefWidth="446.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectofinal_p2a.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="116.0" layoutY="256.0" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="104.0" text="Ingresar" />
+        <Label fx:id="label" layoutX="58.0" layoutY="29.0" minHeight="16" minWidth="69" prefHeight="31.0" prefWidth="339.0" />
+      <TextField fx:id="TexFieldUser" layoutX="116.0" layoutY="113.0" prefHeight="31.0" prefWidth="215.0" promptText="USER NAME" />
+      <PasswordField fx:id="PasswordFieldPass" layoutX="116.0" layoutY="183.0" prefHeight="31.0" prefWidth="215.0" promptText="PASSWORD" />
+      <Button id="ButtonLimpiar" fx:id="ButtonLimpiar" layoutX="227.0" layoutY="256.0" onAction="#handleButtonAction2" prefHeight="31.0" prefWidth="104.0" text="Limpiar" />
+    </children>
+</AnchorPane>
